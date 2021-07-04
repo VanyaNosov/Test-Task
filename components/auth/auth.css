@@ -1,0 +1,33 @@
+.tittle {
+  color: white;
+  text-align: center;
+}
+
+.sign_in_container {
+  background-color: #494A67;
+  max-width: 300px;
+  min-height: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.registration_unit {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.entry_field {
+  width: 100%;
+  margin-bottom: 20px;
+  display: inline-block;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.entry_field:last-child {
+  margin-bottom: 0px;
+}

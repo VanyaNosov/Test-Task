@@ -1,0 +1,35 @@
+.header {
+  background-color: #494A67;
+  min-height: 95px;
+  position: relative;
+  padding-right: 120px;
+  padding-left: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+}
+
+.logo_text_color {
+  color: #48cfad;
+}
+
+.item {
+  transition: 0.5s;
+  display: inline-block;
+  margin-right: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: #48cfad;
+}
+
+.item:last-child {
+  margin-right: 0px;
+}
